@@ -1,0 +1,9 @@
+# Convert LF to native line endings for text files
+* text=auto
+
+# Explicitly declare text files you want to always be normalized and converted
+# to native line endings on checkout.
+*.sh text
+*.md text
+*.vim text
+*.png binary
