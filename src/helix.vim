@@ -83,7 +83,6 @@ xnoremap <A-U> <Esc><C-R>v
 xnoremap y ygv
 xnoremap p <Esc>`>pgv
 xnoremap P <Esc>`<Pgv
-" TODO: this does not work in VsVim? But it works when pressing the keys manually
 xnoremap > >gv
 xnoremap < <gv
 xnoremap = =gv

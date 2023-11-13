@@ -2,15 +2,18 @@
 map L vglv
 map H vghv
 
-" Select words excluding surrounding space
+" Select whole words excluding surrounding space using w/b
+" e/alt-e are used for select until next/previous end/start of word
 nnoremap w eviw
 xnoremap w veviw
 nnoremap W EviW
 xnoremap W vEviW
-nnoremap <A-w> bviwo
-xnoremap <A-w> vbviwo
-nnoremap <A-W> BviWo
-xnoremap <A-W> vBviWo
+nnoremap b bviwo
+xnoremap b vbviwo
+nnoremap B BviWo
+xnoremap B vBviWo
+noremap <A-e> <Esc>mabmbviwveviwovhmc`bhmblvh]`o
+noremap <A-E> <Esc>maBmbviWovEviWvhmc`bhmblvh]`o
 
 " More intuitive whole line selection using J/K
 noremap V V

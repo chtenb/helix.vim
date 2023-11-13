@@ -11,14 +11,16 @@ noremap <space>q <Esc>:q<CR>
 
 " TODO: these alt keys do not work, though it seems they should:
 " https://github.com/VsVim/VsVim/issues/806
-nnoremap <A-w> bviwo
-xnoremap <A-w> vbviwo
-nnoremap <A-W> BviWo
-xnoremap <A-W> vBviWo
+noremap <A-e> <Esc>mabmbviwveviwovhmc`bhmblvh]`o
+noremap <A-E> <Esc>maBmbviWovEviWvhmc`bhmblvh]`o
 
 " TODO: add special cases for VsVim multiple selections
 " https://github.com/VsVim/VsVim/blob/master/Documentation/Multiple%20Selections.md
 
 " Surround mode
 noremap msb :vsc Edit.SurroundWith<CR>
+
+" Poor mans multi cursor mode
+set gdefault
+noremap s :s/
 
