@@ -73,7 +73,8 @@ xnoremap o <Esc>`>o <BS>
 xnoremap O <Esc>`<O <BS>
 nnoremap o o <BS>
 nnoremap O O <BS>
-xnoremap . <Esc>`<.v
+xnoremap . <Esc>`<.
+nnoremap . .
 xnoremap u <Esc>uv
 xnoremap U <Esc><C-R>v
 " TODO: not sure what this should do
@@ -156,26 +157,26 @@ nnoremap n gngnvgn
 nnoremap N gNgNvgN
 
 " Goto mode
-xnoremap gg <Esc>ggv
-xnoremap ge <Esc>Gv
-xnoremap gf <Esc>gfv
-xnoremap gl <Esc>$v
-xnoremap gh <Esc>0v
-xnoremap gs <Esc>^v
-xnoremap gt <Esc>Hv
-xnoremap gc <Esc>Mv
-xnoremap gb <Esc>Lv
-xnoremap gd <Esc>gDv
+xnoremap gg <Esc>gg
+xnoremap ge <Esc>G
+xnoremap gf <Esc>gf
+xnoremap gl <Esc>$
+xnoremap gh <Esc>0
+xnoremap gs <Esc>^
+xnoremap gt <Esc>H
+xnoremap gc <Esc>M
+xnoremap gb <Esc>L
+xnoremap gd <Esc>gD
 xnoremap gy <Esc>:echo "Not implemented"<CR>gsgv
 xnoremap gr <Esc>:echo "Not implemented"<CR>gsgv
 xnoremap gi <Esc>:echo "Not implemented"<CR>gsgv
-xnoremap ga <Esc><C-^>v
+xnoremap ga <Esc><C-^>
 xnoremap gm <Esc>:echo "Not implemented"<CR>gsgv
-xnoremap gn <Esc>:next<CR>v
-xnoremap gp <Esc>:previous<CR>v
-xnoremap g. <Esc>`^v
-xnoremap gj <Esc>jv
-xnoremap gk <Esc>kv
+xnoremap gn <Esc>:next<CR>
+xnoremap gp <Esc>:previous<CR>
+xnoremap g. <Esc>`^
+xnoremap gj <Esc>j
+xnoremap gk <Esc>k
 nnoremap gg gg
 nnoremap ge G
 nnoremap gf gf
@@ -265,11 +266,11 @@ noremap <Space>w <C-w>
 " Space mode
 " TODO: almost nothing is supported out of the box
 " TODO: investigate select pasted text?
-xnoremap <Space>p <Esc>"*pv
-xnoremap <Space>P <Esc>"*Pv
-xnoremap <Space>y "*ygv
-xnoremap <Space>Y "*ygv
-xnoremap <Space>R "*pv
+xnoremap <Space>p <Esc>"*p
+xnoremap <Space>P <Esc>"*P
+xnoremap <Space>y "*yg
+xnoremap <Space>Y "*yg
+xnoremap <Space>R "*p
 nnoremap <Space>p "*p
 nnoremap <Space>P "*P
 nnoremap <Space>y v"*y
