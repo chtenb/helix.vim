@@ -33,6 +33,7 @@ xnoremap k vk
 xnoremap a v`>ha
 xnoremap <A-:> v`<v`>h
 xnoremap p <Esc>`>hpgv
+xnoremap R "_d""P`[v`]h
 xnoremap ms( <Esc>`<i(<Esc>ma`>a)<Esc>mb`av`b
 xnoremap ms) <Esc>`<i(<Esc>ma`>a)<Esc>mb`av`b
 xnoremap ms[ <Esc>`<i[<Esc>ma`>a]<Esc>mb`av`b

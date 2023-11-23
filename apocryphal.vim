@@ -24,7 +24,10 @@ xmap vJ Zjv
 map K Vv
 xmap vK Zkv
 
-noremap <A-j> = J
+noremap <A-j> J
+
+" :reflow
+xnoremap <Space><Bslash> gq
 
 " Close current buffer
 noremap <Space>q <Esc>:bd<CR>

@@ -251,10 +251,14 @@ nnoremap k gk
 
 " Changes
 " r is defined in replace.vim
-xnoremap R "0pv
+xnoremap R "_d""P`[v`]
+nmap R vR
 xnoremap ~ ~gv
+nnoremap ~ v~
 xnoremap ` ugv
+nnoremap ` vu
 xnoremap <A-`> Ugv
+nnoremap <A-`> vU
 xnoremap i <Esc>`<i
 xnoremap a <Esc>`>a
 xnoremap I <Esc>`<I
@@ -272,29 +276,25 @@ noremap <A-u> gv
 " TODO: not sure what this should do
 xnoremap <A-U> <Esc><C-R>v
 xnoremap y ygv
+nnoremap y vy
 xnoremap p <Esc>`>pgv
 xnoremap P <Esc>`<Pgv
 xnoremap > >gv
+nnoremap > >>
 xnoremap < <gv
+nnoremap < <<
 xnoremap = =gv
 xnoremap d dv
+nnoremap d vd
 xnoremap <A-d> "_dv
+nnoremap <A-d> v"_d
 xnoremap c c
+nnoremap c vc
 xnoremap <A-c> "_c
 xnoremap <C-a> <Esc><C-a>v
 xnoremap <C-x> <Esc><C-x>v
 " TODO: macros
 nnoremap U <C-R>
-nnoremap R v"0pv
-nnoremap ~ v~
-nnoremap ` vu
-nnoremap <A-`> vU
-nnoremap y vy
-nnoremap > >>
-nnoremap < <<
-nnoremap d vd
-nnoremap c vc
-nnoremap <A-d> v"_d
 
 " Shell
 " TODO
@@ -526,6 +526,9 @@ xmap v> >
 xmap v< <
 xmap vX X
 xmap vx x
+xmap v<Space>y <Space>y
+xmap v<Space>Y <Space>Y
+xmap v<Space>R <Space>R
 
 " Select / extend for f/t/F/T is defined in find.vim
 
