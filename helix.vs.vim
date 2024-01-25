@@ -264,8 +264,8 @@ xnoremap a <Esc>`>a
 xnoremap I <Esc>`<I
 xnoremap A <Esc>`>A
 xnoremap o <Esc>`>o <BS>
-xnoremap O <Esc>`<O <BS>
 nnoremap o o <BS>
+xnoremap O <Esc>`<O <BS>
 nnoremap O O <BS>
 xnoremap . <Esc>`<.
 nnoremap . .
@@ -279,6 +279,9 @@ xnoremap y ygv
 nnoremap y vy
 xnoremap p <Esc>`>pgv
 xnoremap P <Esc>`<Pgv
+" TODO: why don't the register work properly?
+xnoremap " "
+nnoremap " v"
 xnoremap > >gv
 nnoremap > >>
 xnoremap < <gv
@@ -320,7 +323,7 @@ xnoremap ( <Esc>:echo "Not supported in VIM"<CR>gsgv
 xnoremap ) <Esc>:echo "Not supported in VIM"<CR>gsgv
 xnoremap <A-(> <Esc>:echo "Not supported in VIM"<CR>gsgv
 xnoremap <A-)> <Esc>:echo "Not supported in VIM"<CR>gsgv
-xnoremap % vgg0vG$
+xnoremap % <Esc>gg0vG$
 noremap x $V
 noremap X 0V
 xnoremap <A-x> <Esc>:echo "Not implemented"<CR>gsgv
@@ -1396,26 +1399,26 @@ set nohlsearch
 cnoremap <CR> <CR><Esc>v
 xnoremap / /
 xnoremap ? ?
-xnoremap n vgn
-xnoremap N vgN
+xnoremap n <Esc>gn
+xnoremap N <Esc>gN
 nnoremap n gn
 nnoremap N gN
-xnoremap * v*Ngn
+xnoremap * <Esc>*Ngn
 nnoremap * *Ngn
 
 " gk/gj do not work in VsVim when wrap is enabled
 " https://github.com/VsVim/VsVim/issues/2758
 nnoremap j j
 nnoremap k k
-xnoremap j vj
-xnoremap k vk
+xnoremap j <Esc>j
+xnoremap k <Esc>k
 " TODO: check select mode case
 
 " Workarounds for `> bugs
 " https://github.com/VsVim/VsVim/issues/3072
 " https://github.com/VsVim/VsVim/issues/3065
-xnoremap a v`>ha
-xnoremap <A-:> v`<v`>h
+xnoremap a <Esc>`>ha
+xnoremap <A-:> <Esc>`<v`>h
 xnoremap p <Esc>`>hpgv
 xnoremap R "_d""P`[v`]h
 xnoremap ms( <Esc>`<i(<Esc>ma`>a)<Esc>mb`av`b

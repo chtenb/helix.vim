@@ -74,8 +74,8 @@ xnoremap a <Esc>`>a
 xnoremap I <Esc>`<I
 xnoremap A <Esc>`>A
 xnoremap o <Esc>`>o <BS>
-xnoremap O <Esc>`<O <BS>
 nnoremap o o <BS>
+xnoremap O <Esc>`<O <BS>
 nnoremap O O <BS>
 xnoremap . <Esc>`<.
 nnoremap . .
@@ -89,6 +89,9 @@ xnoremap y ygv
 nnoremap y vy
 xnoremap p <Esc>`>pgv
 xnoremap P <Esc>`<Pgv
+" TODO: why don't the register work properly?
+xnoremap " "
+nnoremap " v"
 xnoremap > >gv
 nnoremap > >>
 xnoremap < <gv
@@ -130,7 +133,7 @@ xnoremap ( <Esc>:echo "Not supported in VIM"<CR>gsgv
 xnoremap ) <Esc>:echo "Not supported in VIM"<CR>gsgv
 xnoremap <A-(> <Esc>:echo "Not supported in VIM"<CR>gsgv
 xnoremap <A-)> <Esc>:echo "Not supported in VIM"<CR>gsgv
-xnoremap % vgg0vG$
+xnoremap % <Esc>gg0vG$
 noremap x $V
 noremap X 0V
 xnoremap <A-x> <Esc>:echo "Not implemented"<CR>gsgv

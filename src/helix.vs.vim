@@ -12,26 +12,26 @@ set nohlsearch
 cnoremap <CR> <CR><Esc>v
 xnoremap / /
 xnoremap ? ?
-xnoremap n vgn
-xnoremap N vgN
+xnoremap n <Esc>gn
+xnoremap N <Esc>gN
 nnoremap n gn
 nnoremap N gN
-xnoremap * v*Ngn
+xnoremap * <Esc>*Ngn
 nnoremap * *Ngn
 
 " gk/gj do not work in VsVim when wrap is enabled
 " https://github.com/VsVim/VsVim/issues/2758
 nnoremap j j
 nnoremap k k
-xnoremap j vj
-xnoremap k vk
+xnoremap j <Esc>j
+xnoremap k <Esc>k
 " TODO: check select mode case
 
 " Workarounds for `> bugs
 " https://github.com/VsVim/VsVim/issues/3072
 " https://github.com/VsVim/VsVim/issues/3065
-xnoremap a v`>ha
-xnoremap <A-:> v`<v`>h
+xnoremap a <Esc>`>ha
+xnoremap <A-:> <Esc>`<v`>h
 xnoremap p <Esc>`>hpgv
 xnoremap R "_d""P`[v`]h
 xnoremap ms( <Esc>`<i(<Esc>ma`>a)<Esc>mb`av`b

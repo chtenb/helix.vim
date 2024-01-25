@@ -7,13 +7,13 @@ noremap ge <Esc>G$
 " Select whole words excluding surrounding space using w/b
 " e/alt-e are used for select until next/previous end/start of word
 nnoremap w eviw
-xnoremap w veviw
+xnoremap w <Esc>eviw
 nnoremap W EviW
-xnoremap W vEviW
+xnoremap W <Esc>EviW
 nnoremap b bviwo
-xnoremap b vbviwo
+xnoremap b <Esc>bviwo
 nnoremap B BviWo
-xnoremap B vBviWo
+xnoremap B <Esc>BviWo
 noremap <A-e> <Esc>mabmbviwveviwovhmc`bhmblvh]`o
 noremap <A-E> <Esc>maBmbviWovEviWvhmc`bhmblvh]`o
 
