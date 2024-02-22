@@ -1,8 +1,13 @@
 " Select from cursor till end of line
 map L vglv
 map H vghv
-noremap G <Esc>G
+" Select till end of file
 noremap ge <Esc>G$
+xnoremap Zge G$
+xmap vge Zgev
+noremap G <Esc>G
+xnoremap ZG G
+xmap vG ZGv
 
 " Select whole words excluding surrounding space using w/b
 " e/alt-e are used for select until next/previous end/start of word

@@ -309,6 +309,7 @@ xnoremap Zb b
 xnoremap Zgl $
 xnoremap Zgh 0
 xnoremap Zgs ^
+xnoremap Zge G
 
 xmap vl Zlv
 xmap vl Zlv
@@ -321,6 +322,7 @@ xmap vb Zbv
 xmap vgl Zglv
 xmap vgh Zghv
 xmap vgs Zgsv
+xmap vge Zgev
 
 " Operations
 xmap vc c
