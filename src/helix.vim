@@ -345,5 +345,26 @@ xmap v<Space>y <Space>y
 xmap v<Space>Y <Space>Y
 xmap v<Space>R <Space>R
 
+xmap vms( ms(
+xmap vms) ms)
+xmap vms[ ms[
+xmap vms] ms]
+xmap vms{ ms{
+xmap vms} ms}
+xmap vms< ms<
+xmap vms> ms>
+xmap vms' ms'
+xmap vms" ms"
+xmap vms` ms`
+xmap vms~ ms~
+xmap vms/ ms/
+xmap vms_ ms_
+xmap vms- ms-
+xmap vms* ms*
+xmap vms: ms:
+xmap vms= ms=
+xmap vms<Bar> ms<Bar>
+
+
 " Select / extend for f/t/F/T is defined in find.vim
 
