@@ -3,11 +3,11 @@ noremap L <Esc>v$h
 noremap H <Esc>v0
 
 " Open solution explorer
-noremap <space>e <Esc>:vsc View.SolutionExplorer<CR>
+noremap <space>e :vsc View.SolutionExplorer<CR>
 " Symbol picker; s is easier to type than S and Visual Studio does not have a file-local symbol picker
-noremap <space>s <Esc>:vsc Edit.GoToSymbol<CR>
+noremap <space>s :vsc Edit.GoToSymbol<CR>
 " Close current tab/file
-noremap <space>q <Esc>:q<CR>
+noremap <space>q :q<CR>
 
 " TODO: these alt keys do not work, though it seems they should:
 " https://github.com/VsVim/VsVim/issues/806

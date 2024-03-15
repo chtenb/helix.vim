@@ -75,13 +75,13 @@ noremap gr :vsc Edit.FindAllReferences<CR>
 "TODO: yanking leaves a hanging visual mode for one motion
 xnoremap <Space>y "*ygv
 xnoremap <Space>Y "*ygv
-noremap <space>k <Esc>:vsc Edit.QuickInfo<CR>
-noremap <space>a <Esc>:vsc View.QuickActions<CR>
-noremap <space>/ <Esc>:vsc Edit.FindInFiles<CR>
-noremap <space>S <Esc>:vsc Edit.GoToSymbol<CR>
-noremap <space>f <Esc>:vsc Edit.GoToFile<CR>
-noremap <space>r <Esc>:vsc Refactor.Rename<CR>
-noremap <space>D <Esc>:vsc View.ErrorList<CR>
+noremap <space>k :vsc Edit.QuickInfo<CR>
+noremap <space>a :vsc View.QuickActions<CR>
+noremap <space>/ :vsc Edit.FindInFiles<CR>
+noremap <space>S :vsc Edit.GoToSymbol<CR>
+noremap <space>f :vsc Edit.GoToFile<CR>
+noremap <space>r :vsc Refactor.Rename<CR>
+noremap <space>D :vsc View.ErrorList<CR>
 " TODO: more IDE features/space mode
 
 " Bracket mode
