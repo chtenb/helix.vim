@@ -306,7 +306,7 @@ xnoremap Zk gk
 xnoremap Ze e
 xnoremap Zw w
 xnoremap Zb b
-xnoremap Zgl $
+xnoremap Zgl $h
 xnoremap Zgh 0
 xnoremap Zgs ^
 xnoremap Zge G

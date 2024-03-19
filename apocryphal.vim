@@ -1,6 +1,8 @@
 " Select from cursor till end of line
 map L vglv
+xmap vL Zglv
 map H vghv
+xmap vH Zghv
 " Select till end of file
 noremap ge <Esc>G$
 xnoremap Zge G$
