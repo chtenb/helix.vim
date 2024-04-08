@@ -1,7 +1,3 @@
-" Select from cursor till end of line
-noremap L <Esc>v$h
-noremap H <Esc>v0
-
 " Open solution explorer
 noremap <space>e :vsc View.SolutionExplorer<CR>
 " Symbol picker; s is easier to type than S and Visual Studio does not have a file-local symbol picker

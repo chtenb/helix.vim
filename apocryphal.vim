@@ -1,7 +1,7 @@
 " Select from cursor till end of line
-map L vglv
+map L <A-:><A-;>vglv
 xmap vL Zglv
-map H vghv
+map H <A-;><A-:>vghv
 xmap vH Zghv
 " Select till end of file
 noremap ge <Esc>G$
