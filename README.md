@@ -36,6 +36,8 @@ source ~/helix.vim/helix.vim
 source ~/helix.vim/helix.vs.vim
 ```
 
+When https://github.com/msomeone/PeasyMotion is installed, `gw` will behave similarly as in helix.
+
 ### For other Vim emulators
 
 Your best bet is to source `helix.vim/helix.vim`, but you will probably run into emulator-specific bugs or quirks.

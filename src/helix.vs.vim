@@ -70,6 +70,8 @@ noremap gn :vsc Window.NextTab<CR>
 noremap gp :vsc Window.PreviousTab<CR>
 noremap gd :vsc Edit.GoToDefinition<CR>
 noremap gr :vsc Edit.FindAllReferences<CR>
+noremap gw <Esc>:vsc Tools.InvokePeasyMotion<CR>
+noremap gf gf
 
 " Space mode
 "TODO: yanking leaves a hanging visual mode for one motion
