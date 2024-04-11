@@ -352,7 +352,7 @@ nnoremap N gNgNvgN
 " Goto mode
 xnoremap gg <Esc>gg
 xnoremap ge <Esc>G
-xnoremap gf <Esc>gf
+xnoremap gf gf
 xnoremap gl <Esc>$
 xnoremap gh <Esc>0
 xnoremap gs <Esc>^
@@ -502,6 +502,7 @@ xnoremap Zgs ^
 xnoremap Zge G
 xnoremap Z<A-;> o
 xnoremap Zmm %
+xnoremap Zgf gf
 " TODO: all other match mode operators
 
 xmap vl Zlv
@@ -518,6 +519,7 @@ xmap vgs Zgsv
 xmap vge Zgev
 xmap v<A-;> Z<A-;>v
 xmap vmm Zmmv
+xmap vgf Zgf
 
 " Operations
 xmap vc c
