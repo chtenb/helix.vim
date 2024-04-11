@@ -310,6 +310,9 @@ xnoremap Zgl $h
 xnoremap Zgh 0
 xnoremap Zgs ^
 xnoremap Zge G
+xnoremap Z<A-;> o
+xnoremap Zmm %
+" TODO: all other match mode operators
 
 xmap vl Zlv
 xmap vl Zlv
@@ -323,6 +326,8 @@ xmap vgl Zglv
 xmap vgh Zghv
 xmap vgs Zgsv
 xmap vge Zgev
+xmap v<A-;> Z<A-;>v
+xmap vmm Zmmv
 
 " Operations
 xmap vc c
