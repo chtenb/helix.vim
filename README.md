@@ -32,11 +32,13 @@ source ~/helix.vim/helix.vim
 
 ### For Visual Studio/VsVim
 
+Make sure [VsVim](https://github.com/VsVim/VsVim) is installed. Then
+
 ```
 source ~/helix.vim/helix.vs.vim
 ```
 
-When https://github.com/msomeone/PeasyMotion is installed, `gw` will behave similarly as in helix.
+When [PeasyMotion](https://github.com/msomeone/PeasyMotion) is installed, `gw` will behave similarly as in helix.
 
 ### For other Vim emulators
 
