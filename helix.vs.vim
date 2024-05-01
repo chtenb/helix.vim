@@ -324,8 +324,6 @@ xnoremap ) <Esc>:echo "Not supported in VIM"<CR>gsgv
 xnoremap <A-(> <Esc>:echo "Not supported in VIM"<CR>gsgv
 xnoremap <A-)> <Esc>:echo "Not supported in VIM"<CR>gsgv
 xnoremap % <Esc>gg0vG$
-noremap x $V
-noremap X 0V
 xnoremap <A-x> <Esc>:echo "Not implemented"<CR>gsgv
 xnoremap J Jgv
 xnoremap <A-J> <Esc>:echo "Not supported in VIM"<CR>gsgv
@@ -565,6 +563,11 @@ xmap vms<Bar> ms<Bar>
 
 " Select / extend for f/t/F/T is defined in find.vim
 
+" Visual / normal mode mix
+noremap zV V
+map x zVv
+xmap vx Zjv
+noremap X 0V
 " In extend mode, make sure that f/t/F/T stays in extend mode
 " Every key stroke x needs the following pair of maps
 " xnoremap Zfx fx
