@@ -374,7 +374,7 @@ xmap vms<Bar> ms<Bar>
 " Select / extend for f/t/F/T is defined in find.vim
 
 " Visual / normal mode mix
-noremap zV V
-map x zVv
+noremap ZV V
+map x ZVv
 xmap vx Zjv
 noremap X 0V

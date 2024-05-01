@@ -25,10 +25,9 @@ noremap <A-e> <Esc>mabmbviwveviwovhmc`bhmblvh]`o
 noremap <A-E> <Esc>maBmbviWovEviWvhmc`bhmblvh]`o
 
 " More intuitive whole line selection using J/K
-noremap zV V
-map J zVv
+map J ZVv
 xmap vJ Zjv
-map K zVv
+map K ZVv
 xmap vK Zkv
 
 noremap <A-j> J
