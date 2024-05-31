@@ -113,38 +113,38 @@ nnoremap U <C-R>
 " TODO
 
 " Selection manipulation
-xnoremap s <Esc>:echo "Not supported in VIM"<CR>gsgv
-xnoremap S <Esc>:echo "Not supported in VIM"<CR>gsgv
-xnoremap <A-s> <Esc>:echo "Not supported in VIM"<CR>gsgv
-xnoremap <A-_> <Esc>:echo "Not supported in VIM"<CR>gsgv
-xnoremap & <Esc>:echo "Not supported in VIM"<CR>gsgv
-xnoremap _ <Esc>:echo "Not implemented"<CR>gsgv
+noremap s <Esc>:echo "Not supported in VIM"<CR>gsgv
+noremap S <Esc>:echo "Not supported in VIM"<CR>gsgv
+noremap <A-s> <Esc>:echo "Not supported in VIM"<CR>gsgv
+noremap <A-_> <Esc>:echo "Not supported in VIM"<CR>gsgv
+noremap & <Esc>:echo "Not supported in VIM"<CR>gsgv
+noremap _ <Esc>:echo "Not implemented"<CR>gsgv
 xnoremap ; <Esc>
 nnoremap ; <nop>
 xnoremap <A-;> o
 nnoremap <A-;> <nop>
 xnoremap <A-:> <Esc>`<v`>
 nnoremap <A-:> <nop>
-xnoremap , <Esc>:echo "Not supported in VIM"<CR>gsgv
-xnoremap <A-,> <Esc>:echo "Not supported in VIM"<CR>gsgv
-xnoremap C <Esc>:echo "Not implemented"<CR>gsgv
-xnoremap <A-C> <Esc>:echo "Not implemented"<CR>gsgv
-xnoremap ( <Esc>:echo "Not supported in VIM"<CR>gsgv
-xnoremap ) <Esc>:echo "Not supported in VIM"<CR>gsgv
-xnoremap <A-(> <Esc>:echo "Not supported in VIM"<CR>gsgv
-xnoremap <A-)> <Esc>:echo "Not supported in VIM"<CR>gsgv
-xnoremap % <Esc>gg0vG$
-xnoremap <A-x> <Esc>:echo "Not implemented"<CR>gsgv
+noremap , <Esc>:echo "Not supported in VIM"<CR>gsgv
+noremap <A-,> <Esc>:echo "Not supported in VIM"<CR>gsgv
+noremap C <Esc>:echo "Not implemented"<CR>gsgv
+noremap <A-C> <Esc>:echo "Not implemented"<CR>gsgv
+noremap ( <Esc>:echo "Not supported in VIM"<CR>gsgv
+noremap ) <Esc>:echo "Not supported in VIM"<CR>gsgv
+noremap <A-(> <Esc>:echo "Not supported in VIM"<CR>gsgv
+noremap <A-)> <Esc>:echo "Not supported in VIM"<CR>gsgv
+noremap % <Esc>gg0vG$
+noremap <A-x> <Esc>:echo "Not implemented"<CR>gsgv
 xnoremap J Jgv
-xnoremap <A-J> <Esc>:echo "Not supported in VIM"<CR>gsgv
-xnoremap K <Esc>:echo "Not supported in VIM"<CR>gsgv
-xnoremap <A-K> <Esc>:echo "Not supported in VIM"<CR>gsgv
-xnoremap <C-c> <Esc>:echo "Not implemented"<CR>gsgv
+noremap <A-J> <Esc>:echo "Not supported in VIM"<CR>gsgv
+noremap K <Esc>:echo "Not supported in VIM"<CR>gsgv
+noremap <A-K> <Esc>:echo "Not supported in VIM"<CR>gsgv
+noremap <C-c> <Esc>:echo "Not implemented"<CR>gsgv
 " This could perhaps be approached with b% or something
-xnoremap <A-o> <Esc>:echo "Not implemented"<CR>gsgv
-xnoremap <A-i> <Esc>:echo "Not supported in VIM"<CR>gsgv
-xnoremap <A-p> <Esc>:echo "Not supported in VIM"<CR>gsgv
-xnoremap <A-n> <Esc>:echo "Not supported in VIM"<CR>gsgv
+noremap <A-o> <Esc>:echo "Not implemented"<CR>gsgv
+noremap <A-i> <Esc>:echo "Not supported in VIM"<CR>gsgv
+noremap <A-p> <Esc>:echo "Not supported in VIM"<CR>gsgv
+noremap <A-n> <Esc>:echo "Not supported in VIM"<CR>gsgv
 nnoremap % gg0vG$
 
 " Search
