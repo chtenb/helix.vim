@@ -16,7 +16,4 @@ noremap <A-E> <Esc>maBmbviWovEviWvhmc`bhmblvh]`o
 " Surround mode
 noremap msb :vsc Edit.SurroundWith<CR>
 
-" Poor mans multi cursor mode
-set gdefault
-noremap s :s/
 

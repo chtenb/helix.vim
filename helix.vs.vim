@@ -303,7 +303,9 @@ nnoremap U <C-R>
 " TODO
 
 " Selection manipulation
-noremap s <Esc>:echo "Not supported in VIM"<CR>gsgv
+" Poor mans multi cursor mode
+set gdefault
+noremap s :s/
 noremap S <Esc>:echo "Not supported in VIM"<CR>gsgv
 noremap <A-s> <Esc>:echo "Not supported in VIM"<CR>gsgv
 noremap <A-_> <Esc>:echo "Not supported in VIM"<CR>gsgv
