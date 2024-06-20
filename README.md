@@ -42,7 +42,7 @@ When [PeasyMotion](https://github.com/msomeone/PeasyMotion) is installed, `gw` w
 
 ### For other Vim emulators
 
-Your best bet is to source `helix.vim/helix.vim`, but you will probably run into emulator-specific bugs or quirks.
+Your best bet is to source `helix.vim`, but you will probably run into emulator-specific bugs or quirks.
 If you manage to develop a working set of mappings for an IDE that is not included here yet, feel free to open a pull request for it.
 
 Also have a look at `apocryphal.vim` and `apocryphal.vs.vim` for mappings that are not canonical for Helix, but you may find useful nonetheless.
@@ -51,7 +51,7 @@ Also have a look at `apocryphal.vim` and `apocryphal.vs.vim` for mappings that a
 
 Vim has no builtin LSP, Treesitter or multiple selection support, so the generic mapping set lacks bindings that rely on these features.
 Depending on the IDE some functionality can be emulated in IDE-specific mappings.
-See `src/helix.vs.vim` for examples.
+See [src/helix.vs.vim](https://github.com/chtenb/helix.vim/blob/main/src/helix.vs.vim) for examples.
 
 # Documentation
 
