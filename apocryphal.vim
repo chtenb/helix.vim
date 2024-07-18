@@ -24,6 +24,9 @@ xnoremap B <Esc>BviWo
 noremap <A-e> <Esc>mabmbviwveviwovhmc`bhmblvh]`o
 noremap <A-E> <Esc>maBmbviWovEviWvhmc`bhmblvh]`o
 
+xnoremap ZE E
+xmap vW ZEv
+
 " More intuitive whole line selection using J/K
 map J ZVv
 xmap vJ Zjv
