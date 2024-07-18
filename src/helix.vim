@@ -325,6 +325,9 @@ xnoremap Zk gk
 xnoremap Ze e
 xnoremap Zw w
 xnoremap Zb b
+xnoremap ZE E
+xnoremap ZW W
+xnoremap ZB B
 xnoremap Zgl $h
 xnoremap Zgh 0
 xnoremap Zgs ^
@@ -342,6 +345,9 @@ xmap vk Zkv
 xmap ve Zev
 xmap vw Zwv
 xmap vb Zbv
+xmap vE ZEv
+xmap vW ZWv
+xmap vB ZBv
 xmap vgl Zglv
 xmap vgh Zghv
 xmap vgs Zgsv
