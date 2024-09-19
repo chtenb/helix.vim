@@ -90,6 +90,9 @@ nnoremap ~ vU
 xnoremap ` ugv
 nnoremap ` vu
 
+nnoremap * v"ay:<C-u>let @/='<C-r>a'<CR>
+xnoremap * "ay:<C-u>let @/='<C-r>a'<CR>
+
 " View mode
 nmap zc <Action>(EditorScrollToCenter)
 nmap zj <Action>(EditorScrollDownAndMove)
