@@ -1614,3 +1614,22 @@ xmap <Space>/ <Action>(FindInPath)
 nmap <Space>? <Action>(GotoAction)
 xmap <Space>? <Action>(GotoAction)
 
+" Window mode
+nmap <Space>wv <Action>(SplitVertically)
+xmap <Space>wv <Action>(SplitVertically)
+nmap <Space>ws <Action>(SplitHorizontally)
+xmap <Space>ws <Action>(SplitHorizontally)
+
+nmap <Space>wq <Action>(CloseEditor)
+xmap <Space>wq <Action>(CloseEditor)
+
+" Tab Shifter (https://plugins.jetbrains.com/plugin/7475-tab-shifter)
+nmap <Space>wk <Action>(TabShiftActions.MoveFocusUp)
+xmap <Space>wk <Action>(TabShiftActions.MoveFocusUp)
+nmap <Space>wh <Action>(TabShiftActions.MoveFocusLeft)
+xmap <Space>wh <Action>(TabShiftActions.MoveFocusLeft)
+nmap <Space>wj <Action>(TabShiftActions.MoveFocusDown)
+xmap <Space>wj <Action>(TabShiftActions.MoveFocusDown)
+nmap <Space>wl <Action>(TabShiftActions.MoveFocusRight)
+xmap <Space>wl <Action>(TabShiftActions.MoveFocusRight)
+
