@@ -82,6 +82,8 @@ nmap <A-i> <Action>(EditorUnSelectWord)
 xmap <A-i> <Action>(EditorUnSelectWord)
 nmap <A-Down> <Action>(EditorUnSelectWord)
 xmap <A-Down> <Action>(EditorUnSelectWord)
+nmap <C-c> <Action>(CommentByLineComment)k
+xmap <C-c> <Action>(CommentByLineComment)k
 nmap C <Action>(EditorCloneCaretBelow)
 xmap C <Action>(EditorCloneCaretAbove)
 
