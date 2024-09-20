@@ -165,13 +165,27 @@ nmap <Space>? <Action>(GotoAction)
 xmap <Space>? <Action>(GotoAction)
 
 " Window mode
+nmap <Space>ww <Action>(NextSplitter)
+xmap <Space>ww <Action>(NextSplitter)
 nmap <Space>wv <Action>(SplitVertically)
 xmap <Space>wv <Action>(SplitVertically)
 nmap <Space>ws <Action>(SplitHorizontally)
 xmap <Space>ws <Action>(SplitHorizontally)
-
+nmap <Space>wt <Action>(ChangeSplitOrientation)
+xmap <Space>wt <Action>(ChangeSplitOrientation)
 nmap <Space>wq <Action>(CloseEditor)
 xmap <Space>wq <Action>(CloseEditor)
+
+nmap <C-w>w <Action>(NextSplitter)
+xmap <C-w>w <Action>(NextSplitter)
+nmap <C-w>v <Action>(SplitVertically)
+xmap <C-w>v <Action>(SplitVertically)
+nmap <C-w>s <Action>(SplitHorizontally)
+xmap <C-w>s <Action>(SplitHorizontally)
+nmap <C-w>t <Action>(ChangeSplitOrientation)
+xmap <C-w>t <Action>(ChangeSplitOrientation)
+nmap <C-w>q <Action>(CloseEditor)
+xmap <C-w>q <Action>(CloseEditor)
 
 " Tab Shifter (https://plugins.jetbrains.com/plugin/7475-tab-shifter)
 nmap <Space>wk <Action>(TabShiftActions.MoveFocusUp)
