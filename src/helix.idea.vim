@@ -26,6 +26,8 @@ nnoremap o o
 nnoremap d vd
 xnoremap d dv
 
+xnoremap \= <Action>(ReformatCode)
+
 " Movement
 noremap t vt
 noremap T vT
