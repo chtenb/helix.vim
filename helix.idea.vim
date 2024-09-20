@@ -1532,11 +1532,6 @@ xmap <A-Down> <Action>(EditorUnSelectWord)
 nmap C <Action>(EditorCloneCaretBelow)
 xmap C <Action>(EditorCloneCaretAbove)
 
-xnoremap ~ Ugv
-nnoremap ~ vU
-xnoremap ` ugv
-nnoremap ` vu
-
 nnoremap * v"ay:<C-u>let @/='<C-r>a'<CR>
 xnoremap * "ay:<C-u>let @/='<C-r>a'<CR>
 
