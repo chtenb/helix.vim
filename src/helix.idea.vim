@@ -64,11 +64,11 @@ nmap gT <Action>(GotoTest)
 nmap gp <Action>(PreviousTab)
 nmap gy <Action>(GotoTypeDeclaration)
 
-" Requires plugin: KJump
+" KJump (https://plugins.jetbrains.com/plugin/10149-kjump)
 nmap gw <Action>(KJumpAction.Word0)
 xmap gw <Action>(KJumpAction.Word0)
 
-" Requires plugin: String manipulation
+" String manipulation (https://plugins.jetbrains.com/plugin/2162-string-manipulation)
 xmap & <Action>(StringManipulation.AlignSelections)
 
 " Selection manipulation
