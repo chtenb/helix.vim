@@ -40,6 +40,18 @@ source ~/helix.vim/helix.vs.vim
 
 When [PeasyMotion](https://github.com/msomeone/PeasyMotion) is installed, `gw` will behave similarly as in helix.
 
+### For JetBrains IDE's with IdeaVim
+
+```
+source ~/helix.vim/helix.idea.vim
+```
+
+#### Additional plugins used in the mappings
+
+- [KJump](https://plugins.jetbrains.com/plugin/10149-kjump) for `gw`
+- [String manipulation](https://plugins.jetbrains.com/plugin/2162-string-manipulation) for `&`
+- [Tab Shifter](https://plugins.jetbrains.com/plugin/7475-tab-shifter) for directional window navigation 
+
 ### For other Vim emulators
 
 Your best bet is to source `helix.vim`, but you will probably run into emulator-specific bugs or quirks.
