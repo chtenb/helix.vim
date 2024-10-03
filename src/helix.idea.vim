@@ -13,7 +13,6 @@ set wrapscan                      " searches wrap around the end of the file
 set ideajoin
 set idearefactormode=keep
 
-set argtextobj
 xnoremap \= <Action>(ReformatCode)
 
 " Select/extend
@@ -28,6 +27,9 @@ noremap X 0V
 xnoremap X <nop>
 
 " Match mode
+set argtextobj
+nmap maa vaa
+xmap maa vaa
 
 " Goto mode
 nmap gr <Action>(FindUsages)
