@@ -13,13 +13,7 @@ set wrapscan                      " searches wrap around the end of the file
 set ideajoin
 set idearefactormode=keep
 
-" Plugins
-set commentary
-set highlightedyank
 set argtextobj
-set matchit
-set multiple-cursors
-
 xnoremap \= <Action>(ReformatCode)
 
 " Select/extend
