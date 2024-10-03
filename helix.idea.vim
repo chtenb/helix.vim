@@ -1467,19 +1467,7 @@ set argtextobj
 set matchit
 set multiple-cursors
 
-xnoremap <Esc>o o
-nnoremap o o
-
-nnoremap d vd
-xnoremap d dv
-
 xnoremap \= <Action>(ReformatCode)
-
-" Movement
-noremap t vt
-noremap T vT
-noremap f vf
-noremap F vF
 
 " Select/extend
 nnoremap e ve
@@ -1493,22 +1481,12 @@ noremap X 0V
 xnoremap X <nop>
 
 " Match mode
-noremap ma) <Esc>va(
-noremap ma} <Esc>va{
-noremap ma> <Esc>va<
-noremap ma[ <Esc>va[
-
-noremap mi) <Esc>vi)
-noremap mi{ <Esc>vi}
-noremap mi< <Esc>vi>
-noremap mi[ <Esc>vi]
 
 " Goto mode
 nmap gr <Action>(FindUsages)
 nmap gi <Action>(GotoImplementation)
 nmap gd <Action>(GotoDeclaration)
 nmap gT <Action>(GotoTest)
-nmap gp <Action>(PreviousTab)
 nmap gy <Action>(GotoTypeDeclaration)
 
 " KJump (https://plugins.jetbrains.com/plugin/10149-kjump)
