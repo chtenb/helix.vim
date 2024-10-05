@@ -13,3 +13,4 @@ echo '" This file was compiled by helix.vim/compile.sh' > helix.vim
 echo '' >> helix.vim
 cat src/unmap.vim src/helix.vim src/find.vim src/replace.vim >> helix.vim
 cat helix.vim src/helix.vs.vim > helix.vs.vim
+cat helix.vim src/helix.idea.vim > helix.idea.vim
