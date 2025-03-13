@@ -30,6 +30,10 @@ nmap gd <Action>(GotoDeclaration)
 nmap gT <Action>(GotoTest)
 nmap gy <Action>(GotoTypeDeclaration)
 
+" Shell pipe
+nnoremap <Bar> !
+xnoremap <Bar> !
+
 " KJump (https://plugins.jetbrains.com/plugin/10149-kjump)
 nmap gw <Action>(KJumpAction.Word0)
 xmap gw <Action>(KJumpAction.Word0)
