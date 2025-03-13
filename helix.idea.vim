@@ -1487,7 +1487,6 @@ xmap & <Action>(StringManipulation.AlignSelections)
 " Selection manipulation
 noremap , <Esc><Esc>
 
-nmap <A-s> <Action>(EditorAddCaretPerSelectedLine)
 xmap <A-s> <Action>(EditorAddCaretPerSelectedLine)
 nmap <A-o> <Action>(EditorSelectWord)
 xmap <A-o> <Action>(EditorSelectWord)
