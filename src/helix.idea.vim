@@ -124,8 +124,8 @@ xmap <Space>r <Action>(RenameElement)
 nmap <Space>a <Action>(ShowIntentionActions)
 xmap <Space>a <Action>(ShowIntentionActions)
 
-nmap <Space>j <Action>(RecentLocation)
-xmap <Space>j <Action>(RecentLocation)
+nmap <Space>j <Action>(RecentLocations)
+xmap <Space>j <Action>(RecentLocations)
 
 nmap <Space>/ <Action>(FindInPath)
 xmap <Space>/ <Action>(FindInPath)
