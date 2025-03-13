@@ -1458,7 +1458,6 @@ set incsearch                     " show search results while typing
 set wrapscan                      " searches wrap around the end of the file
 
 set ideajoin
-set idearefactormode=keep
 
 xnoremap \= <Action>(ReformatCode)
 
