@@ -15,14 +15,6 @@ set idearefactormode=keep
 
 xnoremap \= <Action>(ReformatCode)
 
-" Select/extend
-nnoremap e ve
-nnoremap E vE
-nnoremap w vw
-nnoremap W vW
-nnoremap b vb
-nnoremap B vB
-
 noremap X 0V
 xnoremap X <nop>
 
