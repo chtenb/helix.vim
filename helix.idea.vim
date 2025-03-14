@@ -1458,7 +1458,6 @@ set incsearch                     " show search results while typing
 set wrapscan                      " searches wrap around the end of the file
 
 set ideajoin
-set idearefactormode=keep
 
 xnoremap \= <Action>(ReformatCode)
 
@@ -1477,6 +1476,10 @@ nmap gd <Action>(GotoDeclaration)
 nmap gT <Action>(GotoTest)
 nmap gy <Action>(GotoTypeDeclaration)
 
+" Shell pipe
+nnoremap <Bar> !
+xnoremap <Bar> !
+
 " KJump (https://plugins.jetbrains.com/plugin/10149-kjump)
 nmap gw <Action>(KJumpAction.Word0)
 xmap gw <Action>(KJumpAction.Word0)
@@ -1487,7 +1490,6 @@ xmap & <Action>(StringManipulation.AlignSelections)
 " Selection manipulation
 noremap , <Esc><Esc>
 
-nmap <A-s> <Action>(EditorAddCaretPerSelectedLine)
 xmap <A-s> <Action>(EditorAddCaretPerSelectedLine)
 nmap <A-o> <Action>(EditorSelectWord)
 xmap <A-o> <Action>(EditorSelectWord)
@@ -1571,8 +1573,8 @@ xmap <Space>r <Action>(RenameElement)
 nmap <Space>a <Action>(ShowIntentionActions)
 xmap <Space>a <Action>(ShowIntentionActions)
 
-nmap <Space>j <Action>(RecentLocation)
-xmap <Space>j <Action>(RecentLocation)
+nmap <Space>j <Action>(RecentLocations)
+xmap <Space>j <Action>(RecentLocations)
 
 nmap <Space>/ <Action>(FindInPath)
 xmap <Space>/ <Action>(FindInPath)
