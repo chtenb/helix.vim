@@ -16,4 +16,7 @@ noremap <A-E> <Esc>maBmbviWovEviWvhmc`bhmblvh]`o
 " Surround mode
 noremap msb :vsc Edit.SurroundWith<CR>
 
+" Workarounds to get out of insert mode when VS is stuck
+noremap <Esc> <Esc>hl<Esc>
+noremap <F1> <Esc>:vsc Tools.InvokePeasyMotion<CR>
 

@@ -42,3 +42,7 @@ xnoremap <Space><Bslash> gq
 noremap <Space>q <Esc>:bd<CR>
 " More intuitive quick info
 noremap <space>i <Esc>:vsc Edit.QuickInfo<CR>
+
+" Easily select inner line
+nnoremap _ ^v$h
+vnoremap _ ^v$h
