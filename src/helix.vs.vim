@@ -83,6 +83,9 @@ noremap <space>S :vsc Edit.GoToSymbol<CR>
 noremap <space>f :vsc Edit.GoToFile<CR>
 noremap <space>r :vsc Refactor.Rename<CR>
 noremap <space>D :vsc View.ErrorList<CR>
+noremap <space>c :vsc Edit.ToggleLineComment<CR>
+noremap <space>C :vsc Edit.ToggleBlockComment<CR>
+noremap <space>? :vsc Window.QuickLaunch<CR>
 " TODO: more IDE features/space mode
 
 " Bracket mode
@@ -91,6 +94,7 @@ noremap [f <Esc>:vsc Edit.PreviousMethod<CR>
 noremap ]c <Esc>:vsc View.Comments<CR>
 "noremap ]d <Esc>:vsc View.NextError<CR>
 "noremap [d <Esc>:vsc View.PreviousError<CR>
+
 
 " Match mode
 " TODO: add all relevant and add to native helix.vim
