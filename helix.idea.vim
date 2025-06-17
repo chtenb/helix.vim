@@ -1509,8 +1509,13 @@ nnoremap * v"ay:<C-u>let @/='<C-r>a'<CR>
 xnoremap * "ay:<C-u>let @/='<C-r>a'<CR>
 
 " View mode
+xmap zz <Action>(EditorScrollToCenter)
+nmap zz <Action>(EditorScrollToCenter)
+xmap zc <Action>(EditorScrollToCenter)
 nmap zc <Action>(EditorScrollToCenter)
+xmap zj <Action>(EditorScrollDownAndMove)
 nmap zj <Action>(EditorScrollDownAndMove)
+xmap zk <Action>(EditorScrollUpAndMove)
 nmap zk <Action>(EditorScrollUpAndMove)
 
 " Unimpaired
