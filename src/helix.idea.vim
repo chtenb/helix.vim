@@ -12,7 +12,8 @@ set wrapscan                      " searches wrap around the end of the file
 
 set ideajoin
 
-xnoremap \= <Action>(ReformatCode)
+nmap = <Action>(ReformatCode)
+xmap = <Action>(ReformatCode)
 
 noremap X 0V
 xnoremap X <nop>
