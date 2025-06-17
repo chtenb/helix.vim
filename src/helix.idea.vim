@@ -23,6 +23,14 @@ set argtextobj
 nmap maa vaa
 xmap maa vaa
 
+set surround
+unmap cs
+unmap ds
+unmap ys
+unmap yss
+nmap mr <Plug>CSurround
+nmap md <Plug>DSurround
+
 " Goto mode
 nmap gr <Action>(FindUsages)
 nmap gi <Action>(GotoImplementation)
