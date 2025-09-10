@@ -40,9 +40,13 @@ noremap W <Esc>malWhmb`aEviWovmc`blmbhvl[`o
 noremap b <Esc>mabmbviwveviwovhmc`bhmblvh]`o
 noremap B <Esc>maBmbviWovEviWvhmc`bhmblvh]`o
 " TODO: make these motions work across lines
+noremap t<CR> <Esc>vg_
 noremap t <Esc>vt
+noremap T<CR> <Esc>v0
 noremap T <Esc>vT
+noremap f<CR> <Esc>v$
 noremap f <Esc>vf
+noremap F<CR> <Esc>v0h$
 noremap F <Esc>vF
 xnoremap G Gvv
 xnoremap <A-.> <Esc>v;

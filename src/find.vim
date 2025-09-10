@@ -189,6 +189,8 @@ xnoremap Zf> f>
 xmap vf> Zf>v
 xnoremap Zf? f?
 xmap vf? Zf?v
+xnoremap Zf<CR> $
+xmap vf<CR> Zf<CR>v
 
 xnoremap ZF1 F1
 xmap vF1 ZF1v
@@ -376,6 +378,8 @@ xnoremap ZF> F>
 xmap vF> ZF>v
 xnoremap ZF? F?
 xmap vF? ZF?v
+xnoremap ZF<CR> 0h$
+xmap vF<CR> ZF<CR>v
 
 
 xnoremap ZT1 T1
@@ -564,6 +568,8 @@ xnoremap ZT> T>
 xmap vT> ZT>v
 xnoremap ZT? T?
 xmap vT? ZT?v
+xnoremap ZT<CR> 0
+xmap vT<CR> ZT<CR>v
 
 
 xnoremap Zt1 t1
@@ -752,4 +758,6 @@ xnoremap Zt> t>
 xmap vt> Zt>v
 xnoremap Zt? t?
 xmap vt? Zt?v
+xnoremap Zt<CR> g_
+xmap vt<CR> Zt<CR>v
 

@@ -230,9 +230,13 @@ noremap W <Esc>malWhmb`aEviWovmc`blmbhvl[`o
 noremap b <Esc>mabmbviwveviwovhmc`bhmblvh]`o
 noremap B <Esc>maBmbviWovEviWvhmc`bhmblvh]`o
 " TODO: make these motions work across lines
+noremap t<CR> <Esc>vg_
 noremap t <Esc>vt
+noremap T<CR> <Esc>v0
 noremap T <Esc>vT
+noremap f<CR> <Esc>v$
 noremap f <Esc>vf
+noremap F<CR> <Esc>v0h$
 noremap F <Esc>vF
 xnoremap G Gvv
 xnoremap <A-.> <Esc>v;
@@ -786,6 +790,8 @@ xnoremap Zf> f>
 xmap vf> Zf>v
 xnoremap Zf? f?
 xmap vf? Zf?v
+xnoremap Zf<CR> $
+xmap vf<CR> Zf<CR>v
 
 xnoremap ZF1 F1
 xmap vF1 ZF1v
@@ -973,6 +979,8 @@ xnoremap ZF> F>
 xmap vF> ZF>v
 xnoremap ZF? F?
 xmap vF? ZF?v
+xnoremap ZF<CR> 0h$
+xmap vF<CR> ZF<CR>v
 
 
 xnoremap ZT1 T1
@@ -1161,6 +1169,8 @@ xnoremap ZT> T>
 xmap vT> ZT>v
 xnoremap ZT? T?
 xmap vT? ZT?v
+xnoremap ZT<CR> 0
+xmap vT<CR> ZT<CR>v
 
 
 xnoremap Zt1 t1
@@ -1349,6 +1359,8 @@ xnoremap Zt> t>
 xmap vt> Zt>v
 xnoremap Zt? t?
 xmap vt? Zt?v
+xnoremap Zt<CR> g_
+xmap vt<CR> Zt<CR>v
 
 xnoremap r` r`gv
 xnoremap r1 r1gv
