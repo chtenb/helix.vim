@@ -20,3 +20,8 @@ noremap msb :vsc Edit.SurroundWith<CR>
 noremap <Esc> <Esc>hl<Esc>
 noremap <F1> <Esc>:vsc Tools.InvokePeasyMotion<CR>
 
+
+" Test runner
+noremap <space>tr :vsc TestExplorer.RunAllTestsInContext<CR>
+noremap <space>td :vsc TestExplorer.DebugAllTestsInContext<CR>
+noremap <space>tl :vsc TestExplorer.DebugLastRun<CR>
